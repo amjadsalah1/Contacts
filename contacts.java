@@ -1,14 +1,10 @@
-/*
-  java practical 101
-  amjad sami salah
-  120226511
-*/
+
 
 package project2;
 
 import java.util.Scanner;
 
-public class Amjad_120226511 {
+public class projects {
      public static void main(String[] args) {
          
          Scanner in = new Scanner(System.in);
@@ -174,45 +170,6 @@ public class Amjad_120226511 {
             }
          }
          
-
-/*
-Scanner in = new Scanner(System.in);
-        ArrayList<Student> stu = new ArrayList<>();
-        System.out.print("How many names you need add? ");
-        int t = in.nextInt();
-        in.nextLine();
-        for(int i=0;i<t;i++){
-            System.out.print("Enter the first name: ");
-            String firstName = in.nextLine();
-            System.out.print("Enter the last name: ");
-            String lastName = in.nextLine();
-            System.out.print("Are You male? (Y/N): ");
-            String gendar = in.next().toLowerCase();
-            String[] moileNumbers = new String[2];
-            for(int j=0;j<moileNumbers.length;j++){
-                System.out.print("Enter the number ("+(j+1)+"): ");
-                in.next();
-                moileNumbers[j] = in.nextLine();
-            }
-            
-            boolean isMale = false;
-            if(gendar.equals("y")){
-                isMale = true;
-            }
-            
-            stu.add(new Student(firstName, lastName, isMale, moileNumbers)); 
-            
-        }
-        
-        for(Student n: stu){
-            System.out.println("id: "+n.getId()+", Email: "+n.getEmailAdress());
-        }
-        
-        
-        
-    }
-
-*/
        
     
     
